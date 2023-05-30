@@ -14,7 +14,7 @@ PASS = auth.PASS
 Search_URL = auth.SEARCH_URL
 
 # Driver Set Up
-chrome_driver_path = r"C:\Users\Aleks\PycharmProjects\pythonProject\chromedriver_win32\chromedriver.exe"
+chrome_driver_path = auth.CHROME_DRIVER_PATH
 service = Service(executable_path=chrome_driver_path)
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
